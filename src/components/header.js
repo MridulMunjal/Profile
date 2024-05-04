@@ -1,12 +1,8 @@
-import { motion } from "framer-motion"
-import { useState } from 'react';
 import logo from '../../assets/images/logo.png';
 import { Link, NavLink } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
-import useThemeSwitcher from "../hooks/useThemeSwitcher";
 import { info } from "../../info";
 const Header = () => {
-    const [activeTheme, setTheme] = useThemeSwitcher();
     const navigate = useNavigate();
     const handleClick = async (e) => {
         e.preventDefault();

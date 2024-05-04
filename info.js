@@ -16,7 +16,7 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the Gurugram,India'
+            text: 'based in Gurugram,Haryana,India'
         },
         {
             emoji: "💼",
@@ -24,7 +24,7 @@ export const info = {
         },
         {
             emoji: '☕',
-            text: 'fueled by coffee'
+            text: 'fueled by coffee!'
         },
     ],
     socials: [
